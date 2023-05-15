@@ -1,0 +1,32 @@
+banner:
+  enable: true
+  image: '/images/IMG_20230515_055224.jpg'
+  contents: "***Монастырь*** _основан в_ 1762, _восстановлен в_ 2005, ***с. Криволучье***"
+items:
+  - type: highlights
+    items_per_row: 3
+    items:
+    - title: О монастыре
+      icon: fa-church
+      content: >
+        История и современность.
+    - title: Богослужения
+      icon: fa-cross
+      content: >
+        Расписание богослужений.
+    - title: Паломникам
+      icon: fa-question
+      content: >
+        Как совершить паломничество.
+  - type: heading
+    heading: Бог есть любовь, и пребывающий в любви пребывает в Боге, и Бог в нем.
+    contents: 1-ое послание ап. Иоанна, Глава 4, стих 16
+  - type: posts
+    heading: Новости
+    content_type: новости
+    max: 4
+  - type: cta
+    contents: Монастырь нуждается в Вашей помощи!
+    button:
+      contents: Пожертвовать
+      url: "/пожертвования/"

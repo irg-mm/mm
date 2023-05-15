@@ -1,0 +1,47 @@
+baseURL = 'https://irg-mm.github.io/'
+languageCode = 'ru-ru'
+title = 'Иргизский Воскресенский мужской монастырь с. Криволучье Балаковского района'
+theme = 'hugo-arcana'
+DefaultContentLanguage = "ru"
+copyright = "© Иргизский Воскресенский мужской монастырь. Все права защищены."
+
+
+[taxonomies]
+    tag = "tags"
+
+[params]
+    show_post_dates = false
+    enableSourceMaps = false
+    attribution = false
+    [params.footer]
+        [[params.footer.links]]
+            header = "Материалы сайта"
+        [[params.footer.links.links]]
+            title = "Монастырь"
+            url = "/монастырь/"
+        [[params.footer.links.links]]
+            title = "Богослужения"
+            url = "/монастырь/богослужения/"
+        [[params.footer.links.links]]
+            title = "Духовенство"
+            url = "/монастырь/духовенство/"
+        [[params.footer.links.links]]
+            title = "История обители"
+            url = "/монастырь/история/"
+        [[params.footer.links.links]]
+            title = "Новости"
+            url = "/новости/"
+        [[params.footer.links.links]]
+            title = "Паломникам"
+            url = "/паломникам/"
+        [[params.footer.links.links]]
+            title = "Пожертвования"
+            url = "/пожертвования/"
+        [params.footer.form.header]
+            enabled = true
+            title = "Поминальная записка"
+            text = "Вы можете подать записку о молебне за здравие, за упокой, панихиде или сорокоусте. Укажите тип записки, email для обратной связи, перечислите имена в родительном падеже через запятую и внесите пожертвование."
+        [params.footer.contact_form]
+            enabled = true
+            header = "Подать записку"
+            action = "https://formspree.io/f/xqkowdbz"
